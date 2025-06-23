@@ -31,3 +31,4 @@ def is_strong_password(password):
         any(char.isdigit() for char in password) and
         any(char.isalpha() for char in password)
     )
+
